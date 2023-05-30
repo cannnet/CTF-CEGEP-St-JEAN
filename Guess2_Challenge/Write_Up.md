@@ -6,7 +6,7 @@ Cet article documente mon approche et ma solution pour le défi Guess2, un défi
 Le défi Guess2 demandait aux participants de tirer parti de l'outil d'ingénierie inverse Ghidra pour analyser le programme C fourni et trouver un moyen de récupérer l'indicateur stocké dans l'application, plutôt que de se concentrer uniquement sur la devinette du numéro secret.
 
 ## Approche
-Pour résoudre le défi Guess2, j'ai adopté l'approche suivante, en utilisant l'outil de rétro-ingénierie Ghidra :
+Pour résoudre le défi Guess2, j'ai adopté l'approche suivante, en utilisant l'outil de rétro-ingénierie Ghidra (ou d'autres applications telles que : IDA, Radare2, Binary Ninja, OllyDbg et etc) :
 
 J'ai chargé le programme C fourni dans Ghidra et effectué une analyse approfondie de son code et de ses fonctionnalités.
 En examinant le code décompilé, j'ai recherché toutes les références au drapeau ou aux mécanismes qui me permettraient de le récupérer.
